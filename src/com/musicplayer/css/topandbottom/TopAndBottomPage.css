@@ -1,0 +1,151 @@
+.Label_FXName{
+	-fx-font-family:"KaiTi";
+	-fx-font-size:25px;
+	-fx-text-fill: #FFFFFF;
+	-fx-cursor:hand;
+}
+
+.Button_last{
+	-fx-background-image: url("Button_last.png");
+	-fx-cursor:hand;
+}
+.Button_last:hover{
+	-fx-background-image: url("Button_last.png");
+	-fx-cursor:hand;
+}
+.Button_next{
+	-fx-background-image: url("Button_next.png");
+	-fx-cursor:hand;
+}
+
+.Button_next:hover{
+	-fx-background-image: url("Button_nextDark.png");
+	-fx-cursor:hand;
+}
+
+.Button_changeVolumn{
+	-fx-background-image: url("Button_changeVolumn.png");
+	-fx-pref-width:32px;
+	-fx-pref-height:32px;
+	-fx-cursor:hand;
+}
+.Button_changeVolumn:hover{
+	-fx-background-image: url("Button_changeVolumnDark.png");
+	-fx-pref-width:32px;
+	-fx-pref-height:32px;
+	-fx-cursor:hand;
+}
+.Button_modeSwitch{
+	-fx-background-image: url("Button_modeSwitch.png");
+	-fx-pref-width:32px;
+	-fx-pref-height:32px;
+	-fx-cursor:hand;
+}
+.Button_modeSwitch:hover{
+	-fx-background-image: url("Button_modeSwitchDark.png");
+	-fx-pref-width:32px;
+	-fx-pref-height:32px;
+	-fx-cursor:hand;
+}
+
+.Button_playList{
+	-fx-background-image: url("Button_playList.png");
+	-fx-pref-width:32px;
+	-fx-pref-height:32px;
+	-fx-cursor:hand;
+}
+.Button_playLis:hover{
+	-fx-background-image: url("Button_playListDark.png");
+	-fx-pref-width:32px;
+	-fx-pref-height:32px;
+	-fx-cursor:hand;
+}
+
+
+.Button_back{
+	-fx-background-image: url("Button_backDark.png");
+	-fx-cursor:hand;
+}
+
+
+.Button_back:hover{
+	-fx-background-image: url("Button_back.png");
+}
+
+.Button_forward{
+	-fx-background-image: url("Button_forwardDark.png");
+	-fx-cursor:hand;
+}
+
+.Button_forward:hover{
+	-fx-background-image: url("Button_forward.png");
+	-fx-cursor:hand;
+}
+
+.Button_search{
+	-fx-background-image: url("Button_searchDark.png");
+	-fx-cursor:hand;
+}
+
+.Button_search:hover{
+	-fx-background-image: url("Button_search.png");
+	-fx-cursor:hand;
+}
+.Button_login{
+	-fx-background-image: url("Button_login.png");
+	-fx-cursor:hand;
+	/*-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);*/
+}
+
+.TextField_searchSong{
+	-fx-background-image: url("TextFieldSearchSong.png");
+	-fx-text-fill: #000000;
+	-fx-cursor:text;
+	/*-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);*/
+}
+
+.Button_pause{
+	-fx-background-image: url("Button_pause.png");
+	-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);
+}
+.Button_pause:hover{
+	-fx-background-image: url("Button_pauseDark.png");
+	-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);
+}
+
+.Button_setting{
+	-fx-background-image: url("Button_setting.png");
+	-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);
+}
+.Button_setting:hover{
+	-fx-background-image: url("Button_settingDark.png");
+	-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);
+}
+
+.Button_minimize{
+	-fx-background-image: url("Button_minimizeDark.png");
+	-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);
+}
+.Button_minimize:hover{
+	-fx-background-image: url("Button_minimize.png");
+	-fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);
+}
+.Button_close{
+	fx-background-image: url("Button_closeDark.png");
+	
+}
+#AnchorPane_bottom{
+	-fx-background-color:  #FAFAFA;
+	-fx-border-width: 2 0 0 0;
+	-fx-border-color: #FFFFFF;
+}
+
+#AnchorPane_top{
+	-fx-background-color:  #4FB1F9;
+	/*-fx-border-color: linear-gradient( #800000 0%, red 0%);*/
+	-fx-border-width: 0 0 3 0;
+}
+
+#BorderPane_mainPage{
+	-fx-background-color:  #FAFAFA;
+}
